@@ -3,6 +3,7 @@ import Resolver, { ResolverConfiguration, BasicModuleRegistry } from '@glimmer/r
 import moduleMap from '../config/module-map';
 import resolverConfiguration from '../config/resolver-configuration';
 
+
 export default class App extends Application {
   constructor() {
     let moduleRegistry = new BasicModuleRegistry(moduleMap);
