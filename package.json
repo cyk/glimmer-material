@@ -1,7 +1,7 @@
 {
   "name": "glimmer-material-components",
   "version": "0.0.0",
-  "description": "A brand new Glimmer app.",
+  "description": "Glimmer wrapper for \"Material Components for the Web\"",
   "directories": {
     "doc": "doc",
     "test": "tests"
