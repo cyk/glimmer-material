@@ -1,0 +1,71 @@
+.component-list {
+  @include mdc-layout-grid(16px, 16px, 600px);
+  margin-top: 25px;
+}
+
+.component-list-item {
+  @include mdc-layout-grid-cell(16px, 6);
+  font-size: .8em;
+  list-style: none;
+
+  &__link {
+    display: inline-block;
+    background: no-repeat left 5px/48px;
+    padding: 5px 0 15px 65px;
+    text-decoration: none;
+
+    &.icon-button {
+      background-image: url(images/icon-button.png);
+    }
+
+    &.icon-card {
+      background-image: url(images/icon-card.png);
+    }
+
+    &.icon-dialog {
+      background-image: url(images/icon-dialog.png);
+    }
+
+    &.icon-drawer {
+      background-image: url(images/icon-drawer.png);
+    }
+
+    &.icon-elevation {
+      background-image: url(images/icon-elevation.png);
+    }
+
+    &.icon-input {
+      background-image: url(images/icon-input.png);
+    }
+
+    &.icon-progress {
+      background-image: url(images/icon-progress.png);
+    }
+
+    &.icon-list {
+      background-image: url(images/icon-list.png);
+    }
+
+    &.icon-menu {
+      background-image: url(images/icon-menu.png);
+    }
+
+    &.icon-snackbar {
+      background-image: url(images/icon-snackbar.png);
+    }
+
+    &.icon-toolbar {
+      background-image: url(images/icon-toolbar.png);
+    }
+  }
+
+  &--wip {
+    opacity: .25;
+    pointer-events: none;
+  }
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

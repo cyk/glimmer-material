@@ -1,0 +1,10 @@
+<div class="glimmer-material mdc-typography">
+  <nav class="toolbar-nav">
+    <a href="https://github.com/cyk/glimmer-material">GitHub</a>
+    {{#unless isCurrentRouteHome}}
+      <a class="back-link" href="#">Back</a>
+    {{/unless}}
+  </nav>
+
+  {{component currentRouteComponent params=params}}
+</div>

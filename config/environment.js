@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'glimmer-material-components',
+    modulePrefix: 'glimmer-material',
     environment: environment
   };
 

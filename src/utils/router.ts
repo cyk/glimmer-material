@@ -4,7 +4,7 @@ let router = new RouteRecognizer();
 
 router.map(function(match) {
   match('/buttons').to('route-buttons');
-  match('/').to('route-index');
+  match('/').to('route-home');
 });
 
 export function getHash(location) {

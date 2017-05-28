@@ -1,4 +1,15 @@
-# glimmer-material-components
+<h1 align="center">
+  <a href="http://cyk.im/glimmer-material/"><img 
+  width="220" src="https://user-images.githubusercontent.com/423755/26860023-836b45c0-4af0-11e7-9089-9b67b9a0e37d.png" alt="Glimmer Material"></a>
+  <br>
+  Glimmer Material
+  <br>
+  <br>
+</h1>
+
+<h4 align="center">A <a href="https://glimmerjs.com/">Glimmer.js</a> wrapper for <a href="https://material.io/components/web/">Material Components for the Web</a>.</h4>
+
+## Introduction
 
 This README outlines the details of collaborating on this Glimmer application.
 A short introduction of this app could easily go here.
