@@ -30,5 +30,5 @@
   "engines": {
     "node": ">= 4.0"
   },
-  "private": true
+  "license": "MIT"
 }

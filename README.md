@@ -7,12 +7,19 @@
   <br>
 </h1>
 
-<h4 align="center">A <a href="https://glimmerjs.com/">Glimmer.js</a> wrapper for <a href="https://material.io/components/web/">Material Components for the Web</a>.</h4>
+<h4 align="center">
+  A <a href="https://glimmerjs.com/">Glimmer.js</a> wrapper for <a href="https://material.io/components/web/">Material Components for the Web</a>.
+</h4>
+
+<p align="center">
+ <img src="https://img.shields.io/badge/Stability-Experimental-orange.svg" alt="Project Stability: Experimental">
+</p>
+
 
 ## Introduction
 
-This README outlines the details of collaborating on this Glimmer application.
-A short introduction of this app could easily go here.
+🚧 **Glimmer Material** is under active development as a Glimmer.js application. It seeks to _eventually_ be a lightweight [Glimmer.js](https://glimmerjs.com/) wrapper for [Material Components for the Web](https://material.io/components/web/) as an installable add-on.
+
 
 ## Prerequisites
 
@@ -26,7 +33,7 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd glimmer-material-components`
+* `cd glimmer-material`
 * `yarn`
 
 ## Running / Development
