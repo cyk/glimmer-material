@@ -3,19 +3,20 @@ import { MDCRipple, MDCRippleFoundation } from "@material/ripple";
 export default class Button extends Component {
 
   args: {
-    accent: Boolean;
-    raised: Boolean;
+    mini: Boolean;
+    plain: Boolean;
     ripple: Boolean;
+    icon: String;
   }
 
   mdcProps: Array<string> = [
-    'accent',
-    'raised'
+    'mini',
+    'plain'
   ];
 
   get mdcClassNames(): String {
     return this.mdcProps
-      .map((prop) => this.args[prop] && `mdc-button--${prop}`)
+      .map((prop) => this.args[prop] && `mdc-fab--${prop}`)
       .join(' ');
   }
 
