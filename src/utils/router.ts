@@ -4,6 +4,7 @@ let router = new RouteRecognizer();
 
 router.map(function(match) {
   match('/buttons').to('route-buttons');
+  match('/cards').to('route-cards');
   match('/').to('route-home');
 });
 
