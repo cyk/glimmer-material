@@ -1,0 +1,15 @@
+---
+dist: trusty
+language: node_js
+node_js:
+  - 6
+addons:
+  chrome: stable
+
+cache: yarn
+
+install:
+  - yarn install
+
+script:
+  - ember build --environment "production"

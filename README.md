@@ -13,6 +13,8 @@
 
 <p align="center">
  <img src="https://img.shields.io/badge/Stability-Experimental-orange.svg" alt="Project Stability: Experimental">
+ <a href="https://travis-ci.org/cyk/glimmer-material"><img src="https://travis-ci.org/cyk/glimmer-material.svg?branch=master" alt="Build Status"></a>
+ <a href="(https://greenkeeper.io/"><img src="https://badges.greenkeeper.io/cyk/glimmer-material.svg" alt="Greenkeeper badge"></a>
 </p>
 
 
