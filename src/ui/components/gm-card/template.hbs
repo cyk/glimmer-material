@@ -1,0 +1,11 @@
+<div class="mdc-card">
+  {{!-- Yielding classes stop-gap until contextual components are supported --}}
+  {{!-- https://github.com/cyk/glimmer-material/issues/1 --}}
+  {{yield (hash
+    primaryClass="mdc-card__primary"
+    titleClass="mdc-card__title mdc-card__title--large"
+    subtitleClass="mdc-card__subtitle"
+    supportingTextClass="mdc-card__supporting-text"
+    actionsClass="mdc-card__actions"
+    actionClass="mdc-card__action")}}
+</div>

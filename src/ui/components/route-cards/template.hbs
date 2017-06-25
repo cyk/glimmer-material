@@ -1,0 +1,39 @@
+<div>
+  <h2>Cards</h2>
+  <div>
+    <gm-card as |card|>
+      <section class="{{card.primaryClass}}">
+        <h1 class="{{card.titleClass}}">Title goes here</h1>
+        <h2 class="{{card.subtitleClass}}">Subtitle here</h2>
+      </section>
+      <section class="{{card.supportingTextClass}}">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </section>
+      <section class="{{card.actionsClass}}">
+        <gm-button class="{{card.actionClass}}" @compact=true>Action 1</gm-button>
+        <gm-button class="{{card.actionClass}}" @compact=true>Action 2</gm-button>
+      </section>
+    </gm-card>
+  </div>
+  <div>
+      <pre><code class="language-markup">&lt;gm-card as |card|&gt;
+  &lt;section class=&quot;&#123;&#123;card.primaryClass&#125;&#125;&quot;&gt;
+    &lt;h1 class=&quot;&#123;&#123;card.titleClass&#125;&#125;&quot;&gt;Title goes here&lt;/h1&gt;
+    &lt;h2 class=&quot;&#123;&#123;card.subtitleClass&#125;&#125;&quot;&gt;Subtitle here&lt;/h2&gt;
+  &lt;/section&gt;
+  &lt;section class=&quot;&#123;&#123;card.supportingTextClass&#125;&#125;&quot;&gt;
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+    commodo consequat.
+  &lt;/section&gt;
+  &lt;section class=&quot;&#123;&#123;card.actionsClass&#125;&#125;&quot;&gt;
+    &lt;gm-button class=&quot;&#123;&#123;card.actionClass&#125;&#125;&quot; @compact=true&gt;Action 1&lt;/gm-button&gt;
+    &lt;gm-button class=&quot;&#123;&#123;card.actionClass&#125;&#125;&quot; @compact=true&gt;Action 2&lt;/gm-button&gt;
+  &lt;/section&gt;
+&lt;/gm-card&gt;</code></pre>
+  </div>
+</div>
