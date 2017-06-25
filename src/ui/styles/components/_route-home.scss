@@ -1,10 +1,14 @@
+.components {
+  @include mdc-layout-grid(desktop, 16px, 625px);
+}
+
 .component-list {
-  @include mdc-layout-grid(16px, 16px, 600px);
-  margin-top: 25px;
+  @include mdc-layout-grid-inner(desktop, 16px, 16px);
 }
 
 .component-list-item {
-  @include mdc-layout-grid-cell(16px, 6);
+  @include mdc-layout-grid-cell(desktop, 6, 16px);
+
   font-size: .8em;
   list-style: none;
 
