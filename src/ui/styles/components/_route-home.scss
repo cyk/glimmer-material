@@ -1,13 +1,29 @@
 .components {
-  @include mdc-layout-grid(desktop, 16px, 625px);
+  @include mdc-layout-grid(desktop, 16px, 650px);
+
+  @media (max-width: map-get($mdc-layout-grid-breakpoints, tablet) - 1px) {
+    @include mdc-layout-grid(phone, 8px);
+  }
+
+  align-self: stretch;
 }
 
 .component-list {
   @include mdc-layout-grid-inner(desktop, 16px, 16px);
+
+  @media (max-width: map-get($mdc-layout-grid-breakpoints, tablet) - 1px) {
+    @include mdc-layout-grid-inner(phone, 8px, 8px);
+  }
+
+  padding: 0;
 }
 
 .component-list-item {
   @include mdc-layout-grid-cell(desktop, 6, 16px);
+
+  @media (max-width: map-get($mdc-layout-grid-breakpoints, tablet) - 1px) {
+    @include mdc-layout-grid-cell(phone, 4, 16px);
+  }
 
   font-size: .8em;
   list-style: none;
