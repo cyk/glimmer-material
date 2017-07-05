@@ -17,6 +17,6 @@ install:
 after_script:
   - greenkeeper-lockfile-upload
 
-
 script:
+  - ember test
   - ember build --environment "production"

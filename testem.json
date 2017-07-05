@@ -1,0 +1,17 @@
+{
+  "framework": "qunit",
+  "src_files": ["src/**/*"],
+  "serve_files": ["index.js"],
+  "disable_watching": true,
+  "launch_in_ci": [
+    "Chrome"
+  ],
+  "browser_args": {
+    "Chrome": [
+      "--headless",
+      "--incognito",
+      "--disable-gpu",
+      "--remote-debugging-port=9222"
+    ]
+  }
+}

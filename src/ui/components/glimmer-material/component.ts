@@ -1,4 +1,4 @@
-import Component, { tracked } from "@glimmer/component";
+import Component, { tracked } from '@glimmer/component';
 import { onChange } from '../../../utils/router';
 
 export default class GlimmerMaterial extends Component {
