@@ -20,3 +20,6 @@ after_script:
 script:
   - ember test
   - ember build --environment "production"
+
+# https://github.com/travis-ci/travis-ci/issues/8836#issuecomment-356362524
+sudo: required
